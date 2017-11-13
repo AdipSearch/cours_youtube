@@ -134,6 +134,16 @@ body{
 	justify-content: flex-end;
 }
 
+.channel_info p{
+	color: grey;
+	font-size: 12px;
+	margin-top: 0;
+}
+
+td:first-of-type{
+	color: grey;
+}
+
 
 
 .comments{
