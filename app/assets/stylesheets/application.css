@@ -20,6 +20,10 @@ header{
 	background-color: white;
 }
 
+body{
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
 
 .header_content{
 	display:flex;
@@ -46,6 +50,7 @@ header{
 	font-size: 13px;
 	width: 60%;
 
+
 }
 
 .header_liens{
@@ -55,6 +60,7 @@ header{
 	/*justify-content: space-around;*/
 	font-size: 13px;
 	width: 25%;
+	margin-right: 20px;
 	
 }
 
@@ -66,13 +72,13 @@ header{
 	border: 1px #E7E7E7 solid;
 	box-shadow: 1px 1px 1px #E7E7E7;
 	min-height: 33px;
-	width: 50%;
+	width: 75%;
 }
 
 
 #mysearch:hover{
 	border: 1px #E7E7E7 solid;
-	box-shadow: 2px 2px 5px #E7E7E7;
+	box-shadow: 0px 0px 5px blue;
 	min-height: 33px;
 }
 
@@ -92,28 +98,35 @@ header{
 }
 .channel{
 	display:flex;
+	justify-content: space-between;
 }
 .channel_data{
 	display:flex;
-	justify-content: flex-start;
-	width: 50%
-}
-
-.channel_profil{
-	align-items: center;
 	
-	justify-content: flex-start;
+	align-items: center;
+	width: 50%;
+	font-size: 14px;
 }
-
 
 .abonnement{
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
+	align-items: center;
 	width: 50%
 }
 
-.btn_abonnement{
-	justify-content: center;
+.bouton{
+	background-color: rgba(255,0,0,1);
+	color:white;
+	border:none;
+	border-radius: 2px;
+	min-height: 30px;
+	min-width: 70px;
+	padding: 10px 15px 10px 15px;
+}
+
+.nb_abonnes{
+	color: rgba(255,255,255,0.7);
 }
 
 
@@ -132,8 +145,38 @@ header{
 
 }
 
-.proposition{
-	display: flex;
+.propositions{
 	justify-content:flex-end;
+	padding-left: 20px;
+	min-width: 325px;
 	
 }
+
+
+.a_suivre{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+
+.liste{
+	overflow: auto;
+	height: 650px;
+
+}
+
+.proposition{
+	display: flex;
+}
+
+.proposition_image{
+	justify-content: flex-start;
+}
+
+.proposition_texte{
+	justify-content: flex-end;
+	padding-left: 20px;
+}
+
+

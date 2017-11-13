@@ -26,9 +26,9 @@
 	<div class="content">
 		<div class="principal">
 			<div class="video">
-				<iframe width="420" height="315"
-					src="https://www.youtube.com/watch?v=iJb7cBfrxbo">
-				</iframe>			
+				<!--<div><%=image_tag("video.png")%></div>-->
+				<iframe width="650" height="370" src="https://www.youtube.com/embed/iJb7cBfrxbo">
+				</iframe>	
 			</div>
 			<div class="titre_video">
 				<h1>Janis Joplin - Summertime</h1>
@@ -43,8 +43,8 @@
 
 				<div class="channel_data">
 
-					<div class="channel_profil">
-					<div class="img_channel_profil"><%=image_tag("profil.png")%></div></div>
+					
+					<div class="img_channel_profil"><%=image_tag("profil.png")%></div>
 
 					<div class="channel_info">
 						<h2>(Insérer Nom de la chaine)</h2>
@@ -52,7 +52,7 @@
 					</div>
 				</div>
 				<div class="abonnement">
-					<div class="btn_abonnement"><input type="button" value="S'ABONNER"></div>
+					<div><button class="bouton">S'ABONNER <span class="nb_abonnes">130K</span></button></div>
 				</div>
 			</div>
 
@@ -82,19 +82,58 @@
 				
 			</div>
 		</div>
-		<div class="proposition">
-			<div class="proposition_img">
-				<div><%=image_tag("proposition.png")%></div>
-				<div><%=image_tag("proposition.png")%></div>
-				<div><%=image_tag("proposition.png")%></div>
-				<div><%=image_tag("proposition.png")%></div>
-				<div><%=image_tag("proposition.png")%></div>
-				<div><%=image_tag("proposition.png")%></div>
-				<div><%=image_tag("proposition.png")%></div>
-				<div><%=image_tag("proposition.png")%></div>
+		<div class="propositions">
+		
+		<div class="a_suivre">
+			<div>À suivre</div>
+			<div><%=image_tag("lecture.png")%></div>
+		</div>
 
-
+		<div class="liste">
+		
+			<!--<div class="proposition_img">
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+			</div>-->
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
 			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+			<div class="proposition">
+				<div class="proposition_image"><div><%=image_tag("proposition_image.png")%></div></div>
+				<div class="proposition_texte"><p><strong>Titre</strong></p><p>Artiste</p></div>
+			</div>
+		</div>
 		</div>
 	</div>
 </body>
