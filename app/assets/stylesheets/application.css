@@ -72,13 +72,13 @@ body{
 	border: 1px #E7E7E7 solid;
 	box-shadow: 1px 1px 1px #E7E7E7;
 	min-height: 33px;
-	width: 75%;
+	width: 100%;
 }
 
 
 #mysearch:hover{
-	border: 1px #E7E7E7 solid;
-	box-shadow: 0px 0px 5px blue;
+	border: 1px blue solid;
+	box-shadow: 0px 0px 2px #E7E7E7;
 	min-height: 33px;
 }
 
@@ -103,7 +103,6 @@ body{
 .channel_data{
 	display:flex;
 	
-	align-items: center;
 	width: 50%;
 	font-size: 14px;
 }
@@ -137,11 +136,30 @@ body{
 
 
 
+.comments{
+	margin-top: :10px;
+	padding-top: 10px;
+	border-top: 3px #E7E7E7 solid;
+	font-size: 12px;
+}
+
+.commentaire{
+	display: flex;
+	justify-content: space-between;
+}
+
+h2,h3{
+	margin: 0
+}
+
+
+
 
 .principal{
 	display: flex;
 	justify-content:flex-start;
 	flex-direction:column;
+	max-width: 850px;
 
 }
 
