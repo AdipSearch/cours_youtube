@@ -14,8 +14,17 @@
  *= require_self
  */
 header{
+	position: fixed;
+	top:0;
+	width: 100%;
+	background-color: white;
+}
+
+
+.header_content{
 	display:flex;
 	border-bottom: 1px #E7E7E7 solid;
+
 }
 
  .header_logo{
@@ -79,8 +88,42 @@ header{
 .content{
 	display:flex;
 	justify-content: center;
-	padding-top: 2%;
+	padding-top: 5%;
 }
+.channel{
+	display:flex;
+}
+.channel_data{
+	display:flex;
+	justify-content: flex-start;
+	width: 50%
+}
+
+.channel_profil{
+	align-items: center;
+	
+	justify-content: flex-start;
+}
+
+
+.abonnement{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%
+}
+
+.btn_abonnement{
+	justify-content: center;
+}
+
+
+
+.channel_info{
+	justify-content: flex-end;
+}
+
+
+
 
 .principal{
 	display: flex;

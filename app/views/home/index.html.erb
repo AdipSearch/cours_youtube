@@ -1,58 +1,101 @@
-
-<header>
-		<div class="header_logo">
-		<div class="logo">
-			<div><%=image_tag("logo.png")%></div>
-		</div>
-		</div>
-
-		<div class="header_nav_bar">
-			<div class="search"><input id="mysearch" type="search" placeholder="Rechercher"/></div>
-		</div>
-		
-		<div class="header_liens">
-		<div class="liens">
-			<div><%=image_tag("fleche.png", size:"30")%></div>
-			<div><%=image_tag("menu.png", size:"30")%></div>
-			<div><%=image_tag("cloche.png", size:"30")%></div>
-			<div><%=image_tag("profil.png", size:"30")%></div>			
-		</div>
-		</div>
-		
-</header>
-
 <body>
+	<header>
+		<div class="header_content">
+			<div class="header_logo">
+				<div class="logo">
+					<div><%=image_tag("logo.png")%></div>
+				</div>
+			</div>
+
+			<div class="header_nav_bar">
+				<div class="search"><input id="mysearch" type="search" placeholder="Rechercher"/></div>
+			</div>
+
+			<div class="header_liens">
+				<div class="liens">
+					<div><%=image_tag("fleche.png", size:"30")%></div>
+					<div><%=image_tag("menu.png", size:"30")%></div>
+					<div><%=image_tag("cloche.png", size:"30")%></div>
+					<div><%=image_tag("profil.png", size:"30")%></div>			
+				</div>
+			</div>
+		</div>		
+	</header>
+
+
 	<div class="content">
 		<div class="principal">
 			<div class="video">
-			<div><%=image_tag("video.png")%></div>				
+				<iframe width="420" height="315"
+					src="https://www.youtube.com/watch?v=iJb7cBfrxbo">
+				</iframe>			
 			</div>
 			<div class="titre_video">
-			<h1>Janis Joplin - Summertime</h1>
+				<h1>Janis Joplin - Summertime</h1>
 				
 			</div>
+
 			<div class="likes">
-			<div><%=image_tag("likes.png")%></div>
-				
+				<div><%=image_tag("likes.png")%></div>
 			</div>
+
+			<div class="channel">
+
+				<div class="channel_data">
+
+					<div class="channel_profil">
+					<div class="img_channel_profil"><%=image_tag("profil.png")%></div></div>
+
+					<div class="channel_info">
+						<h2>(Insérer Nom de la chaine)</h2>
+						<p>Ajoutée le (insérer date)</p>
+					</div>
+				</div>
+				<div class="abonnement">
+					<div class="btn_abonnement"><input type="button" value="S'ABONNER"></div>
+				</div>
+			</div>
+
+			<div class="video_info">
+				<table style="width:100%">
+
+					<tr>
+						<td>Catégorie</td>
+						<td>Contenu catégorie</td> 
+					</tr>
+					<tr>
+						<td>License</td>
+						<td>Contenu license</td> 
+
+					</tr>
+					<tr>
+						<td>Musique</td>
+						<td>Contenu Musique</td> 
+
+					</tr>
+				</table>
+
+			</div>
+
+
 			<div class="comments">
 				
 			</div>
 		</div>
-	<div class="proposition">
-		<div class="proposition_img">
-		<div><%=image_tag("proposition.png")%></div>
-		<div><%=image_tag("proposition.png")%></div>
-		<div><%=image_tag("proposition.png")%></div>
-		<div><%=image_tag("proposition.png")%></div>
-		<div><%=image_tag("proposition.png")%></div>
-		<div><%=image_tag("proposition.png")%></div>
-		<div><%=image_tag("proposition.png")%></div>
-		<div><%=image_tag("proposition.png")%></div>
+		<div class="proposition">
+			<div class="proposition_img">
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
+				<div><%=image_tag("proposition.png")%></div>
 
-			
+
+			</div>
 		</div>
-	</div>
 	</div>
 </body>
 
