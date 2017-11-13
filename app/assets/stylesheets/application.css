@@ -61,7 +61,7 @@ header{
 }
 
 
-.#mysearch:hover{
+#mysearch:hover{
 	border: 1px #E7E7E7 solid;
 	box-shadow: 2px 2px 5px #E7E7E7;
 	min-height: 33px;
