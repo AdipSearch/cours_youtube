@@ -13,3 +13,84 @@
  *= require_tree .
  *= require_self
  */
+header{
+	display:flex;
+	border-bottom: 1px #E7E7E7 solid;
+}
+
+ .header_logo{
+	min-height: 30px;
+	display: flex;
+	justify-content:flex-start;
+	/*justify-content: space-around;*/
+	font-size: 13px;
+	width: 15%;	
+}
+
+.header_nav_bar{
+
+	min-height: 30px;
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+	/*justify-content: space-around;*/
+	font-size: 13px;
+	width: 60%;
+
+}
+
+.header_liens{
+	min-height: 30px;
+	display: flex;
+	justify-content:flex-end;
+	/*justify-content: space-around;*/
+	font-size: 13px;
+	width: 25%;
+	
+}
+
+.search{
+	width:50%;
+}
+
+#mysearch{
+	border: 1px #E7E7E7 solid;
+	box-shadow: 1px 1px 1px #E7E7E7;
+	min-height: 33px;
+	width: 50%;
+}
+
+
+.#mysearch:hover{
+	border: 1px #E7E7E7 solid;
+	box-shadow: 2px 2px 5px #E7E7E7;
+	min-height: 33px;
+}
+
+
+.liens{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100%;
+	min-width: 200px;
+}
+
+.content{
+	display:flex;
+	justify-content: center;
+	padding-top: 2%;
+}
+
+.principal{
+	display: flex;
+	justify-content:flex-start;
+	flex-direction:column;
+
+}
+
+.proposition{
+	display: flex;
+	justify-content:flex-end;
+	
+}
