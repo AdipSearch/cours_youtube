@@ -1,24 +1,15 @@
-# README
+# cours_youtube
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Mini-projet de cours
+Reproduire une page web, celle de youtube.
+Formation novembre 2017
 
-Things you may want to cover:
+![capture reproduction page youtube](https://user-images.githubusercontent.com/32294560/36733334-93b4f578-1bd0-11e8-9c6f-aa88472f1ab2.png)
 
-* Ruby version
+## Apprentissages:
+- Positionner des div
+- Intégrer des vidéos
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Techniques:
+- HTML/CSS
+- Asset pipeline Ruby on rails
